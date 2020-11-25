@@ -7,7 +7,7 @@ import { colors } from '../colors';
   templateUrl: './calendar.component.html',
   styleUrls: ['./calendar.component.css']
 })
-export class CalendarComponent  {
+export class CalendarComponent {
 
   view: CalendarView = CalendarView.Month;
 
@@ -26,13 +26,6 @@ export class CalendarComponent  {
           },
         },
       ],
-
     }
-  ]
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ];
 }
